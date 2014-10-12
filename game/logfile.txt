@@ -1,0 +1,36 @@
+Street Rod 3 Log file:
+----------------------
+
+Street Rod 3 begin system initialization...
+Initializing OpenGL
+   Screen BPP : 32
+   Vendor     : NVIDIA Corporation
+   Renderer   : GeForce GT 440/PCIe/SSE2
+   Version    : 4.4.0 NVIDIA 340.32
+
+================================================
+Texture Load: file "data/cities/la/garage/Floor.PNG" not found
+Texture Load: file "data/textures/Floor.PNG" not found
+Error: Failed to load image 'Floor.PNG'
+Texture Load: file "data/cities/la/garage/Tutash.png" not found
+Texture Load: file "data/textures/Tutash.png" not found
+Error: Failed to load image 'Tutash.png'
+Texture Load: file "data/cities/la/garage/metal4.PNG" not found
+Texture Load: file "data/textures/metal4.PNG" not found
+Error: Failed to load image 'metal4.PNG'
+Texture Load: file "data/cities/la/garage/BLACK.PNG" not found
+Texture Load: file "data/textures/BLACK.PNG" not found
+Error: Failed to load image 'BLACK.PNG'
+Texture Load: file "data/cities/la/garage/pipes4.PNG" not found
+Texture Load: file "data/textures/pipes4.PNG" not found
+Error: Failed to load image 'pipes4.PNG'
+Texture Load: file "data/cities/la/garage/Fluro.PNG" not found
+Texture Load: file "data/textures/Fluro.PNG" not found
+Error: Failed to load image 'Fluro.PNG'
+Texture Load: file "data/cities/la/garage/Steelplt.png" not found
+Texture Load: file "data/textures/Steelplt.png" not found
+Error: Failed to load image 'Steelplt.png'
+Texture Load: file "data/textures/glow.png" not found
+Texture Load: file "data/textures/glow.png" not found
+
+Shutting down the system...

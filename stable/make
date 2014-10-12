@@ -1,0 +1,80 @@
+CFLAGS = -ggdb -D _LINUX -I ./include\
+
+OBJS = ./common/CarSimulation.o \
+       ./common/CCar.o \
+       ./common/CCar_Driving.o \
+       ./common/CEventQueue.o \
+       ./common/CInput.o \
+       ./common/CMatrix.o \
+       ./common/CModel.o \
+       ./common/CommonFuncs.o \
+       ./common/ConfigHandler.o \
+       ./common/CPart.o \
+       ./common/CPlayer.o \
+       ./common/CQuaternion.o \
+       ./common/CRigidBody.o \
+       ./common/FindFile.o \
+       ./common/Keyword_Manager.o \
+       ./common/Loggin.o \
+       ./common/MathLib.o \
+       ./common/Options.o \
+       ./src/Cache.o \
+       ./src/CButton.o \
+       ./src/CCamera.o \
+       ./src/CCheckbox.o \
+       ./src/CColourPicker.o \
+       ./src/CColourSlider.o \
+       ./src/CDialog.o \
+       ./src/CGuiLayout.o \
+       ./src/CLabel.o \
+       ./src/CLightManager.o \
+       ./src/CListview.o \
+       ./src/CLocation.o \
+       ./src/CMaterial.o \
+       ./src/CNut.o \
+       ./src/COpponent.o \
+       ./src/CQuadTree.o \
+       ./src/CRadio.o \
+       ./src/CSceneScript.o \
+       ./src/CScrollbar.o \
+       ./src/CSidebar.o \
+       ./src/CSky.o \
+       ./src/CSlider.o \
+       ./src/CTaskBar.o \
+       ./src/CTextbox.o \
+       ./src/CWidget.o \
+       ./src/Diner.o \
+       ./src/Drawing.o \
+       ./src/Entity.o \
+       ./src/font.o \
+       ./src/Game.o \
+       ./src/Garage.o \
+       ./src/Garage_Dlg.o \
+       ./src/Garage_Game.o \
+       ./src/Garage_Newspaper.o \
+       ./src/Gar_Parts.o \
+       ./src/gui.o \
+       ./src/InitSystem.o \
+       ./src/Menu.o \
+       ./src/PartPool.o \
+       ./src/Race_main.o \
+       ./src/Renderer.o \
+       ./src/Sound.o \
+       ./src/StateManager.o \
+       ./src/text.o \
+       ./src/TextureManager.o \
+       ./src/BASS_dummy.o
+
+LIBS = -lGL -lGLU -lSDL -lSDL_image libcoldet.a
+
+.IGNORE:
+
+sr3: $(OBJS)
+	g $(OBJS) $(LIBS) -o $@
+
+clean:
+	rm -f $(OBJS)
+
+.cpp.o:
+	g $(CFLAGS) -c $< -o $@
+

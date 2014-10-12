@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="sr3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32 Release">
+				<Option output="../game/sr3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-O2" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+				</Linker>
+			</Target>
+			<Target title="Win32 Debug">
+				<Option output="../game/sr3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-g" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_MBCS" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="kernel32" />
+					<Add library="user32" />
+					<Add library="gdi32" />
+					<Add library="winspool" />
+					<Add library="comdlg32" />
+					<Add library="advapi32" />
+					<Add library="shell32" />
+					<Add library="ole32" />
+					<Add library="oleaut32" />
+					<Add library="uuid" />
+					<Add library="odbc32" />
+					<Add library="odbccp32" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+				</Linker>
+			</Target>
+			<Target title="Linux">
+				<Option output="../game/sr3" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../game" />
+				<Option object_output="obj/Release" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-W" />
+					<Add option="-fexceptions" />
+					<Add option="-D_LINUX" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="GL" />
+					<Add library="SDL" />
+					<Add library="Xxf86vm" />
+					<Add library="../sr3_coldet/lib/libcoldet.so" />
+					<Add library="GLU" />
+					<Add library="glut" />
+					<Add library="SDL_image" />
+					<Add directory="../sr3_coldet/src/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="include" />
+		</Compiler>
+		<Unit filename="common/CCar.cpp" />
+		<Unit filename="common/CCar_Driving.cpp" />
+		<Unit filename="common/CEventQueue.cpp" />
+		<Unit filename="common/CInput.cpp" />
+		<Unit filename="common/CMatrix.cpp" />
+		<Unit filename="common/CModel.cpp" />
+		<Unit filename="common/CPart.cpp" />
+		<Unit filename="common/CPlayer.cpp" />
+		<Unit filename="common/CQuaternion.cpp" />
+		<Unit filename="common/CRigidBody.cpp" />
+		<Unit filename="common/CarSimulation.cpp" />
+		<Unit filename="common/CommonFuncs.cpp" />
+		<Unit filename="common/ConfigHandler.cpp" />
+		<Unit filename="common/FindFile.cpp" />
+		<Unit filename="common/Keyword_Manager.cpp" />
+		<Unit filename="common/Loggin.cpp" />
+		<Unit filename="common/MathLib.cpp" />
+		<Unit filename="common/Options.cpp" />
+		<Unit filename="include/3D structures.h" />
+		<Unit filename="include/3D.h" />
+		<Unit filename="include/CButton.h" />
+		<Unit filename="include/CCamera.h" />
+		<Unit filename="include/CCar.h" />
+		<Unit filename="include/CCarSim.h" />
+		<Unit filename="include/CCheckbox.h" />
+		<Unit filename="include/CCity.h" />
+		<Unit filename="include/CColourPicker.h" />
+		<Unit filename="include/CColourSlider.h" />
+		<Unit filename="include/CDialog.h" />
+		<Unit filename="include/CEventQueue.h" />
+		<Unit filename="include/CGUI.h" />
+		<Unit filename="include/CGuiLayout.h" />
+		<Unit filename="include/CInput.h" />
+		<Unit filename="include/CLabel.h" />
+		<Unit filename="include/CLightManager.h" />
+		<Unit filename="include/CListview.h" />
+		<Unit filename="include/CLocation.h" />
+		<Unit filename="include/CMaterial.h" />
+		<Unit filename="include/CMatrix.h" />
+		<Unit filename="include/CModel.h" />
+		<Unit filename="include/CNut.h" />
+		<Unit filename="include/CObject.h" />
+		<Unit filename="include/COpponent.h" />
+		<Unit filename="include/CPart.h" />
+		<Unit filename="include/CPlayer.h" />
+		<Unit filename="include/CQuadTree.h" />
+		<Unit filename="include/CQuaternion.h" />
+		<Unit filename="include/CRBody.h" />
+		<Unit filename="include/CRadio.h" />
+		<Unit filename="include/CRigidBody.h" />
+		<Unit filename="include/CSceneScript.h" />
+		<Unit filename="include/CScript.h" />
+		<Unit filename="include/CScrollbar.h" />
+		<Unit filename="include/CSidebar.h" />
+		<Unit filename="include/CSimBody.h" />
+		<Unit filename="include/CSky.h" />
+		<Unit filename="include/CSlider.h" />
+		<Unit filename="include/CTaskBar.h" />
+		<Unit filename="include/CTextbox.h" />
+		<Unit filename="include/CTexture.h" />
+		<Unit filename="include/CVec.h" />
+		<Unit filename="include/CWheel.h" />
+		<Unit filename="include/CWidget.h" />
+		<Unit filename="include/Cache.h" />
+		<Unit filename="include/CarSimulation.h" />
+		<Unit filename="include/City.h" />
+		<Unit filename="include/CityTiles.h" />
+		<Unit filename="include/CommonFunc.h" />
+		<Unit filename="include/ConfigHandler.h" />
+		<Unit filename="include/Diner.h" />
+		<Unit filename="include/Drawing.h" />
+		<Unit filename="include/Entity.h" />
+		<Unit filename="include/FindFile.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Garage.h" />
+		<Unit filename="include/KeywordManager.h" />
+		<Unit filename="include/MathLib.h" />
+		<Unit filename="include/Menu.h" />
+		<Unit filename="include/Options.h" />
+		<Unit filename="include/PartPool.h" />
+		<Unit filename="include/RacingEngine.h" />
+		<Unit filename="include/Renderer.h" />
+		<Unit filename="include/Sound.h" />
+		<Unit filename="include/StateManager.h" />
+		<Unit filename="include/System.h" />
+		<Unit filename="include/TextureManager.h" />
+		<Unit filename="include/bass.h" />
+		<Unit filename="include/coldet.h" />
+		<Unit filename="include/defs.h" />
+		<Unit filename="include/font.h" />
+		<Unit filename="include/glext.h" />
+		<Unit filename="include/gui.h" />
+		<Unit filename="include/racing.h" />
+		<Unit filename="include/text.h" />
+		<Unit filename="include/types.h" />
+		<Unit filename="src/BASS_dummy.cpp" />
+		<Unit filename="src/CButton.cpp" />
+		<Unit filename="src/CCamera.cpp" />
+		<Unit filename="src/CCheckbox.cpp" />
+		<Unit filename="src/CColourPicker.cpp" />
+		<Unit filename="src/CColourSlider.cpp" />
+		<Unit filename="src/CDialog.cpp" />
+		<Unit filename="src/CGUI.cpp" />
+		<Unit filename="src/CGuiLayout.cpp" />
+		<Unit filename="src/CLabel.cpp" />
+		<Unit filename="src/CLightManager.cpp" />
+		<Unit filename="src/CListview.cpp" />
+		<Unit filename="src/CLocation.cpp" />
+		<Unit filename="src/CMaterial.cpp" />
+		<Unit filename="src/CNut.cpp" />
+		<Unit filename="src/COpponent.cpp" />
+		<Unit filename="src/CQuadTree.cpp" />
+		<Unit filename="src/CRadio.cpp" />
+		<Unit filename="src/CSceneScript.cpp" />
+		<Unit filename="src/CScrollbar.cpp" />
+		<Unit filename="src/CSidebar.cpp" />
+		<Unit filename="src/CSky.cpp" />
+		<Unit filename="src/CSlider.cpp" />
+		<Unit filename="src/CTaskBar.cpp" />
+		<Unit filename="src/CTextbox.cpp" />
+		<Unit filename="src/CWidget.cpp" />
+		<Unit filename="src/Cache.cpp" />
+		<Unit filename="src/Diner.cpp" />
+		<Unit filename="src/Drawing.cpp" />
+		<Unit filename="src/Entity.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Gar_Parts.cpp" />
+		<Unit filename="src/Garage.cpp" />
+		<Unit filename="src/Garage_Dlg.cpp" />
+		<Unit filename="src/Garage_Game.cpp" />
+		<Unit filename="src/Garage_Newspaper.cpp" />
+		<Unit filename="src/InitSystem.cpp" />
+		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/PartPool.cpp" />
+		<Unit filename="src/Race_main.cpp" />
+		<Unit filename="src/Renderer.cpp" />
+		<Unit filename="src/Sound.cpp" />
+		<Unit filename="src/StateManager.cpp" />
+		<Unit filename="src/TextureManager.cpp" />
+		<Unit filename="src/font.cpp" />
+		<Unit filename="src/gui.cpp" />
+		<Unit filename="src/text.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

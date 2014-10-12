@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="stable/sr3.cbp" active="1" />
+		<Project filename="sr3_coldet/src/coldet.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svnroot/streetrod3/!svn/ver/1/stable/lib
+END
+coldet.lib
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svnroot/streetrod3/!svn/ver/1/stable/lib/coldet.lib
+END
+SDL.lib
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svnroot/streetrod3/!svn/ver/1/stable/lib/SDL.lib
+END
+SDL_image.lib
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svnroot/streetrod3/!svn/ver/1/stable/lib/SDL_image.lib
+END
+SDLmain.lib
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svnroot/streetrod3/!svn/ver/1/stable/lib/SDLmain.lib
+END
+bass.lib
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svnroot/streetrod3/!svn/ver/1/stable/lib/bass.lib
+END

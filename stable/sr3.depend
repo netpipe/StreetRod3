@@ -1,0 +1,728 @@
+# depslib dependency file v1.0
+1267067916 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CCar.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+
+1267067712 /home/Dev/Projects/GamesDev/streetrod3/stable/include/defs.h
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<io.h>
+	<time.h>
+	<assert.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_opengl.h>
+	"bass.h"
+	<math.h>
+	"types.h"
+	"CommonFunc.h"
+	"KeywordManager.h"
+	"ConfigHandler.h"
+	"CEventQueue.h"
+	"FindFile.h"
+	"CInput.h"
+	<sys/stat.h>
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_getenv.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_timer.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_joystick.h"
+	"SDL_events.h"
+	"SDL_video.h"
+	"SDL_byteorder.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_main.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_types.h
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/begin_code.h
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/close_code.h
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_getenv.h
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_error.h
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_rwops.h
+	<stdio.h>
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_timer.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_audio.h
+	<stdio.h>
+	"SDL_main.h"
+	"SDL_types.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_byteorder.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_byteorder.h
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_cdrom.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_joystick.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_events.h
+	"SDL_types.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_active.h
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_keyboard.h
+	"SDL_types.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_keysym.h
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_mouse.h
+	"SDL_types.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_video.h
+	<stdio.h>
+	"SDL_types.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_mutex.h
+	"SDL_main.h"
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_quit.h
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_version.h
+	"SDL_types.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_image.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_opengl.h
+	<windows.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1267067756 /home/Dev/Projects/GamesDev/streetrod3/stable/include/bass.h
+	<wtypes.h>
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/types.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CommonFunc.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/KeywordManager.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/ConfigHandler.h
+	"CVec.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CVec.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CEventQueue.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/FindFile.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CInput.h
+
+1366307487 /home/Dev/Projects/GamesDev/streetrod3/stable/include/System.h
+	"CVec.h"
+	"glext.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/glext.h
+	<windows.h>
+	<stddef.h>
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Game.h
+	"3D.h"
+	"CarSimulation.h"
+	"CNut.h"
+	"CPart.h"
+	"CCar.h"
+	"PartPool.h"
+	"CSceneScript.h"
+	"CLocation.h"
+	"Garage.h"
+	"CSky.h"
+	"COpponent.h"
+	"Diner.h"
+	"CGUI.h"
+	"Renderer.h"
+	"CTaskBar.h"
+	"CPlayer.h"
+	"CSidebar.h"
+	"Options.h"
+	"Sound.h"
+	"CRadio.h"
+
+1267067850 /home/Dev/Projects/GamesDev/streetrod3/stable/include/3D.h
+	"CVec.h"
+	"3D structures.h"
+	"coldet.h"
+	"CCamera.h"
+	"CMaterial.h"
+	"CMatrix.h"
+	"CModel.h"
+	"CQuaternion.h"
+	"MathLib.h"
+	"Cache.h"
+	"StateManager.h"
+	"TextureManager.h"
+	"Drawing.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/3D structures.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/coldet.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CCamera.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CMaterial.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CMatrix.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CModel.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CQuaternion.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/MathLib.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Cache.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/StateManager.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/TextureManager.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Drawing.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CarSimulation.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CNut.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CPart.h
+
+1267067882 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CCar.h
+	<vector>
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/PartPool.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CSceneScript.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CLocation.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Garage.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CSky.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/COpponent.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Diner.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CGUI.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Renderer.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CTaskBar.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CPlayer.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CSidebar.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Options.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Sound.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CRadio.h
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CCar_Driving.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CEventQueue.cpp
+	"defs.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CInput.cpp
+	"defs.h"
+	"System.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CMatrix.cpp
+	"defs.h"
+	"3D.h"
+
+1267067925 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CModel.cpp
+	"defs.h"
+	"System.h"
+	"3D.h"
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CPart.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+
+1267067949 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CPlayer.cpp
+	"defs.h"
+	<direct.h>
+	"Game.h"
+	"System.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CQuaternion.cpp
+	"defs.h"
+	"3D.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CRigidBody.cpp
+	"defs.h"
+	"3D.h"
+	"CRigidBody.h"
+	"System.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CRigidBody.h
+
+1267067961 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CarSimulation.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+	"CarSimulation.h"
+	"Entity.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Entity.h
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/CommonFuncs.cpp
+	"defs.h"
+	"System.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/ConfigHandler.cpp
+	"defs.h"
+
+1267068024 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/FindFile.cpp
+	"defs.h"
+	<glob.h>
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/Keyword_Manager.cpp
+	"defs.h"
+	"System.h"
+	"3D.h"
+	"Game.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/Loggin.cpp
+	"defs.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/MathLib.cpp
+	"defs.h"
+	"3D.h"
+	"System.h"
+
+1267067548 source:/home/Dev/Projects/GamesDev/streetrod3/stable/common/Options.cpp
+	"defs.h"
+	"System.h"
+	"Options.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CButton.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+	"Renderer.h"
+
+1267068031 /home/Dev/Projects/GamesDev/streetrod3/stable/include/gui.h
+	"System.h"
+	"CWidget.h"
+	"CDialog.h"
+	"CButton.h"
+	"CScrollbar.h"
+	"CListview.h"
+	"CColourSlider.h"
+	"CColourPicker.h"
+	"CCheckbox.h"
+	"CTextbox.h"
+	"CSlider.h"
+	"CLabel.h"
+	"font.h"
+	"CGuiLayout.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CWidget.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CDialog.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CButton.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CScrollbar.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CListview.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CColourSlider.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CColourPicker.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CCheckbox.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CTextbox.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CSlider.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CLabel.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/font.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CGuiLayout.h
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CCamera.cpp
+	"defs.h"
+	"3D.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CCheckbox.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+	"Renderer.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CColourPicker.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+	"Renderer.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CColourSlider.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CDialog.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CGUI.cpp
+	"defs.h"
+	"3D.h"
+	"CGUI.h"
+	"Cache.h"
+	"System.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CGuiLayout.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CLabel.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CLightManager.cpp
+	"defs.h"
+	"3D.h"
+	"CLightManager.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CLightManager.h
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CListview.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CLocation.cpp
+	"defs.h"
+	"Game.h"
+	"System.h"
+	"font.h"
+
+1267073879 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CMaterial.cpp
+	"defs.h"
+	"3D.h"
+	"System.h"
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CNut.cpp
+	"defs.h"
+	"Game.h"
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/COpponent.cpp
+	"defs.h"
+	"Game.h"
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CQuadTree.cpp
+	"defs.h"
+	"3D.h"
+	"Game.h"
+	"racing.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/racing.h
+	"CLightManager.h"
+	"CQuadTree.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CQuadTree.h
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CRadio.cpp
+	"defs.h"
+	"Game.h"
+	"System.h"
+	"CRadio.h"
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CSceneScript.cpp
+	"defs.h"
+	"Game.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CScrollbar.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+	"Renderer.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CSidebar.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CSky.cpp
+	"defs.h"
+	"3D.h"
+	"Renderer.h"
+	"CSky.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CSlider.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+	"Renderer.h"
+
+1267067844 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CTaskBar.cpp
+	"defs.h"
+	"Game.h"
+	"System.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CTextbox.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+	"Renderer.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/CWidget.cpp
+	"defs.h"
+	"3D.h"
+	"gui.h"
+
+1267068405 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Cache.cpp
+	"defs.h"
+	"3D.h"
+	"System.h"
+
+1267068044 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Diner.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+	"font.h"
+	"gui.h"
+	"Entity.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Drawing.cpp
+	"defs.h"
+	"3D.h"
+
+1267068070 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Entity.cpp
+	"defs.h"
+	"3D.h"
+	"Entity.h"
+
+1267073873 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Game.cpp
+	"defs.h"
+	"Game.h"
+	"gui.h"
+	"City.h"
+	"racing.h"
+	"Menu.h"
+	"Entity.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/City.h
+	"3D.h"
+	"CityTiles.h"
+	"CCity.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CityTiles.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/CCity.h
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/Menu.h
+
+1267068087 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Gar_Parts.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+	"font.h"
+	"gui.h"
+
+1267068092 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Garage.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+	"font.h"
+	"CSky.h"
+	"gui.h"
+	"Entity.h"
+	"CRigidBody.h"
+
+1267067845 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Garage_Dlg.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+	"font.h"
+	"gui.h"
+
+1267067845 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Garage_Game.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+	"font.h"
+	"gui.h"
+
+1267067845 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Garage_Newspaper.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+	"font.h"
+	"gui.h"
+
+1366307515 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/InitSystem.cpp
+	"defs.h"
+	"System.h"
+	"3D.h"
+	"Cache.h"
+	"StateManager.h"
+	"Game.h"
+	"font.h"
+	"Options.h"
+	<SDL/SDL_syswm.h>
+
+1267067540 /home/Dev/Projects/GamesDev/streetrod3/stable/include/SDL/SDL_syswm.h
+	"SDL_version.h"
+	"begin_code.h"
+	<X11/Xlib.h>
+	<X11/Xatom.h>
+	<microwin/nano-X.h>
+	<windows.h>
+	"close_code.h"
+
+1267067845 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Menu.cpp
+	"defs.h"
+	"3D.h"
+	"Game.h"
+	"Menu.h"
+	"System.h"
+	"Renderer.h"
+	"gui.h"
+
+1267067845 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/PartPool.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+
+1267067845 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Race_main.cpp
+	"defs.h"
+	"System.h"
+	"Game.h"
+	"racing.h"
+	"font.h"
+	"CSky.h"
+	"gui.h"
+	"Entity.h"
+
+1267067845 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Renderer.cpp
+	"defs.h"
+	"Game.h"
+
+1267067845 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/Sound.cpp
+	"defs.h"
+	"Game.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/StateManager.cpp
+	"defs.h"
+	"3D.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/TextureManager.cpp
+	"defs.h"
+	"3D.h"
+	"System.h"
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/font.cpp
+	"defs.h"
+	"3D.h"
+	"font.h"
+	"text.h"
+
+1267067542 /home/Dev/Projects/GamesDev/streetrod3/stable/include/text.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdarg.h>
+	<math.h>
+	<windows.h>
+	<winuser.h>
+	<tchar.h>
+	<GL/gl.h>
+
+1267067546 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/gui.cpp
+	"defs.h"
+	"3D.h"
+	"System.h"
+	"Renderer.h"
+
+1267068245 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/text.cpp
+	"defs.h"
+	"3D.h"
+	"text.h"
+
+1267064609 source:/home/Dev/Projects/GamesDev/streetrod3/stable/src/BASS_dummy.cpp
+	"bass.h"
+
